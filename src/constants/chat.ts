@@ -19,9 +19,22 @@ Respond using Markdown.`;
 
 export const modelOptions: ModelOptions[] = [
   'gpt-3.5-turbo',
+  'gpt-3.5-turbo-0613',
   'gpt-3.5-turbo-16k',
+  'gpt-3.5-turbo-16k-0613',
   'gpt-4',
   'gpt-4-32k',
+  'you-chat',
+  'vicuna-7b-test',
+  'oasst-sft-6-llama-30b',
+  'oasst-sft-4-pythia-12b',
+  'oasst-sft-1-pythia-12b',
+  'llama-2-7b',
+  'llama-2-70b',
+  'llama-2-13b',
+  'falcon-40b',
+  'claude-instant',
+  'claude-100k'
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
@@ -41,6 +54,17 @@ export const modelMaxToken = {
   'gpt-4-32k': 32768,
   'gpt-4-32k-0314': 32768,
   'gpt-4-32k-0613': 32768,
+  'you-chat':512,
+  'vicuna-7b-test': 512,
+  'oasst-sft-6-llama-30b': 8192,
+  'oasst-sft-4-pythia-12b': 1024,
+  'oasst-sft-1-pythia-12b': 1024,
+  'llama-2-7b': 4096,
+  'llama-2-70b': 4096,
+  'llama-2-13b': 4096,
+  'falcon-40b': 1024,
+  'claude-instant': 9432,
+  'claude-100k': 104800
 };
 
 export const modelCost = {
@@ -85,6 +109,50 @@ export const modelCost = {
     completion: { price: 0.12, unit: 1000 },
   },
   'gpt-4-32k-0613': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'you-chat': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'vicuna-7b-test': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'oasst-sft-6-llama-30b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'oasst-sft-4-pythia-12b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'oasst-sft-1-pythia-12b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'llama-2-7b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'llama-2-70b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'llama-2-13b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'falcon-40b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'claude-instant': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'claude-100k': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
   },
