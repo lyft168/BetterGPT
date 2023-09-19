@@ -49,7 +49,7 @@ export interface Folder {
   color?: string;
 }
 
-export type ModelOptions = 'gpt-3.5-turbo' | 'gpt-3.5-turbo-0613' |  'gpt-3.5-turbo-16k' | 'gpt-3.5-turbo-16k-0613' | 'gpt-4' | 'gpt-4-0314' | 'gpt-4-0613' | 'gpt-4-32k' | 'you-chat' | 'vicuna-7b-test' | 'oasst-sft-6-llama-30b' | 'oasst-sft-4-pythia-12b' | 'oasst-sft-1-pythia-12b' | 'llama-2-7b' | 'llama-2-70b' | 'llama-2-13b' | 'falcon-180b' | 'claude-instant' | 'claude-100k';
+export type ModelOptions = 'gpt-3.5-turbo' | 'gpt-3.5-turbo-0613' |  'gpt-3.5-turbo-16k' | 'gpt-3.5-turbo-16k-0613' | 'gpt-4' | 'gpt-4-0314' | 'gpt-4-0613' | 'gpt-4-32k' | 'you-chat' | 'vicuna-7b-test' | 'oasst-sft-6-llama-30b' | 'oasst-sft-4-pythia-12b' | 'oasst-sft-1-pythia-12b' | 'llama-2-7b' | 'llama-2-70b' | 'llama-2-13b' | 'falcon-180b' |'bing'|'claude-instant' | 'claude-100k';
 //export type ModelOptions = 'gpt-4' | 'gpt-4-32k' | 'gpt-3.5-turbo' | 'gpt-3.5-turbo-16k' ;
 // | 'gpt-3.5-turbo-0301';
 // | 'gpt-4-0314'
