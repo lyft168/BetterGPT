@@ -37,7 +37,7 @@ export const modelOptions: ModelOptions[] = [
   'llama-2-70b',
   'llama-2-13b',
   'claude-instant',
-  'claude-2'.
+  'claude-2',
   'claude-100k', 
   'claude-2-100k',
   'bing',
