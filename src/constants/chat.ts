@@ -37,7 +37,9 @@ export const modelOptions: ModelOptions[] = [
   'falcon-180b',
   'claude-instant',
   'claude-100k', 
-  'bing' 
+  'bing',
+  'palm-2',
+  'mythomax-13b'
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
@@ -68,7 +70,9 @@ export const modelMaxToken = {
   'falcon-180b': 8192,
   'claude-instant': 9432,
   'claude-100k': 104800, 
-  'bing' :8192
+  'bing':8192,
+  'palm-2':1024,
+  'mythomax-13b': 2048
 };
 
 export const modelCost = {
@@ -161,6 +165,14 @@ export const modelCost = {
     completion: { price: 0.12, unit: 1000 },
   },
   'bing': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'palm-2': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'mythomax-13b': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
   },
