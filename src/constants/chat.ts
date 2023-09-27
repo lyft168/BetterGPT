@@ -31,15 +31,21 @@ export const modelOptions: ModelOptions[] = [
   'oasst-sft-6-llama-30b',
   'oasst-sft-4-pythia-12b',
   'oasst-sft-1-pythia-12b',
+  'oasst-llama-2-30b',
+  'oasst-llama-2-70b',
   'llama-2-7b',
   'llama-2-70b',
   'llama-2-13b',
-  'falcon-180b',
   'claude-instant',
+  'claude-2'.
   'claude-100k', 
+  'claude-2-100k',
   'bing',
   'palm-2',
-  'mythomax-13b'
+  'falcon-180b',
+  'mythomax-13b',
+  'airochronos-33b',
+  'guanaco-33b',
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
@@ -64,15 +70,21 @@ export const modelMaxToken = {
   'oasst-sft-6-llama-30b': 8192,
   'oasst-sft-4-pythia-12b': 1024,
   'oasst-sft-1-pythia-12b': 1024,
+  'oasst-llama-2-30b' : 4096,
+  'oasst-llama-2-70b' : 4096,
   'llama-2-7b': 4096,
   'llama-2-70b': 4096,
   'llama-2-13b': 4096,
-  'falcon-180b': 8192,
   'claude-instant': 9432,
-  'claude-100k': 104800, 
+  'claude-2' : 104800,
+  'claude-2-100k' : 104800,
+  'claude-100k': 104800,
   'bing':8192,
   'palm-2':1024,
-  'mythomax-13b': 2048
+  'falcon-180b': 8192,
+  'mythomax-13b': 2048,
+  'airochronos-33b' : 2048,
+  'guanaco-33b' : 2048,
 };
 
 export const modelCost = {
@@ -140,6 +152,14 @@ export const modelCost = {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
   },
+  'oasst-llama-2-30b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'oasst-llama-2-70b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
   'llama-2-7b': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
@@ -152,7 +172,11 @@ export const modelCost = {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
   },
-  'falcon-180b': {
+  'claude-2': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'claude-2-100k': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
   },
@@ -173,6 +197,18 @@ export const modelCost = {
     completion: { price: 0.12, unit: 1000 },
   },
   'mythomax-13b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'falcon-180b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'airochronos-33b': {
+    prompt: { price: 0.06, unit: 1000 },
+    completion: { price: 0.12, unit: 1000 },
+  },
+  'guanaco-33b': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
   },
