@@ -138,6 +138,14 @@ export const modelCost = {
     prompt: { price: 0.03, unit: 1000 },
     completion: { price: 0.06, unit: 1000 },
   },
+  'gpt-4-1106-preview': {
+    prompt: { price: 0.03, unit: 1000 },
+    completion: { price: 0.06, unit: 1000 },
+  },
+  'gpt-4-vision-preview': {
+    prompt: { price: 0.03, unit: 1000 },
+    completion: { price: 0.06, unit: 1000 },
+  },
   'gpt-4-32k': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.12, unit: 1000 },
